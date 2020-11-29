@@ -1,5 +1,3 @@
-import "./styles.css";
-
 fetch("https://pokeapi.co/api/v2/pokemon/")
   .then((datos) => {
     return datos.json();
@@ -23,5 +21,5 @@ const consultaDatos = async () => {
     console.log(error);
   }
 };
-
 consultaDatos();
+//HOLA MELA
